@@ -1,0 +1,117 @@
+.programbox {
+    padding: 0.5rem;
+}
+
+
+#page-enrol-programs-management-program .programimage img,
+#page-admin-enrol-programs-management-program .programimage img {
+    max-width: 300px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.programs .programbox.even {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#page-enrol-programs-management-program_users .allocation-filtering .simplesearchform,
+#page-admin-enrol-programs-management-program_users .allocation-filtering .simplesearchform {
+    float: left;
+}
+
+#page-enrol-programs-management-program_users .allocation-filtering .singleselect,
+#page-admin-enrol-programs-management-program_users .allocation-filtering .singleselect {
+    float: left;
+}
+
+#page-enrol-programs-documentation #programs_docs img {
+    width: 100%;
+    height: 100%;
+}
+
+#program_content a.movehere {
+    margin: 0;
+    padding: 5px;
+    display: inline;
+    height: 2rem;
+    border: 2px dashed #343a40;
+}
+.progress {
+  height: 35px;
+  background-color: #0f6cbf;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  overflow: hidden;
+  width: 100%;
+  position: relative; /* Adicionado para posicionar o texto */
+}
+
+.progress-bar {
+  height: 100%;
+  text-align: center;
+  line-height: 20px;
+  transition: width .6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  color: #0a0808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+/* Estilo para a barra de progresso geral */
+.progress-bar-general {
+  background-color: #54BD8D; /* Cor verde para a barra de progresso geral */
+  height: 100%; /* Altura da barra de progresso interna deve ser igual à da barra de progresso */
+  text-align: center; /* Centraliza o texto na barra */
+  line-height: 20px; /* Ajusta a altura da linha para alinhar o texto verticalmente, se necessário */
+  transition: width .6s ease; /* Transição suave para as alterações de largura */
+  display: flex; /* Permite alinhar o texto dentro da barra de progresso */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center; /* Centraliza o texto horizontalmente */    
+  border-radius: 0px; /* Bordas arredondadas para a barra de progresso */
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1); /* Sombra interna para dar um efeito 3D */
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse a barra */
+}
+
+/* Estilo para as barras de progresso dos cursos */
+.progress-bar-course {
+  background-color: #b1cfc0; /* Cor verde claro para as barras de progresso dos cursos */
+  height: 100%; /* Altura da barra de progresso interna deve ser igual à da barra de progresso */
+  text-align: center; /* Centraliza o texto na barra */
+  line-height: 20px; /* Ajusta a altura da linha para alinhar o texto verticalmente, se necessário */
+  transition: width .6s ease; /* Transição suave para as alterações de largura */
+  display: flex; /* Permite alinhar o texto dentro da barra de progresso */
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center; /* Centraliza o texto horizontalmente */    
+  border-radius: 0px; /* Bordas arredondadas para a barra de progresso */
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1); /* Sombra interna para dar um efeito 3D */
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse a barra */
+}
+
+
+#page-enrol-programs-catalogue-index .programimage img {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+}
+
+#page-enrol-programs-my-program .programimage img {
+  float: right;
+  max-width: 600px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
